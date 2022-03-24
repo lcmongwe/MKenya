@@ -1,0 +1,24 @@
+$(document).ready(function(){
+    $("#man1").click(function(){
+      $("#para1").toggle();
+      $("#para2,#para3,#para4,.para5").hide();
+    });
+    $("#man2").click(function(){
+        $("#para2").toggle();
+        $("#para1,#para3,#para4,.para5").hide();
+      });
+      $("#girl1").click(function(){
+        $("#para3").toggle();
+        $("#para2,#para1,#para4,.para5").hide();
+      });
+      $("#girl2").click(function(){
+        $("#para4").toggle();
+        $("#para2,#para3,#para1,.para5").hide();
+      });
+      $("#explanation").click(function(){
+        $(".para5").show();
+      });
+      $(".hover").mouseOver(function(){
+        $(".hover").zoomIn();
+      });
+});
