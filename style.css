@@ -1,0 +1,184 @@
+    *{
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+    body{
+        background-color: black;
+        background: rgba(0, 0, 0, 0.);
+    }
+    
+    .container-row{
+        display: grid;
+        padding-top: 5rem;
+        grid-template-columns: repeat(auto-fill, minmax(10rem, 1fr));
+
+        grid-template-columns: 60% 40% ; 
+        grid-column-gap: 1em;
+        padding-bottom: 2%;
+
+    }
+    .img-source{
+        border-radius: 3%;
+        padding-top: 10%;
+        padding-left: 4%;
+    }
+    .texts-source {
+
+        align-items: center;
+        justify-content: space-between;
+        padding-top: 20%;
+        
+        padding-right: 20%;
+        color: white;
+        font-size:1vw;
+        grid-template-columns: repeat(auto-fill, minmax(10rem, 1fr));
+    
+    }
+    .texts-source h1{
+        color: #FA5F1A;
+    }
+    .texts-source2 h1{
+        color: #FA5F1A;
+    }
+    .container-second{
+        display: grid;
+        grid-template-columns: 40% 60%;
+    }
+    .img-source2{
+        margin-left: 10%;
+        margin-top: 10%;
+        margin-bottom: 20%;
+        grid-template-columns: repeat(auto-fill, minmax(10rem, 1fr));
+        border-radius: 4%;
+        padding-right: 0%;
+    
+
+    }
+    .texts-source2{
+
+        align-items: center;
+        justify-content: space-between;
+        padding-top: 20%;
+        color: white;
+        padding-left: 20%;
+        grid-template-columns: repeat(auto-fill, minmax(10rem, 1fr));
+        
+
+    }
+    .hero-section .na-v .navbar{
+        box-shadow: 0px 0px 10px, 0px 0px 10px;
+    }
+    .container-fluid img{
+        width: 40px;
+    }
+    .logo img{
+        margin-left: 15px;
+    }
+    .logo h5{
+        color: #FA5F1A;
+        font-family: 'Creepster', cursive;
+        font-size: 25px;
+    }
+    .na-v nav .container-fluid #nav-bar{
+        display: flex;
+        margin-right: 5%;
+    }
+    .na-v nav .container-fluid #nav-bar p{
+        margin: 20px;
+        font-family: 'Chicle', cursive;
+        font-size: 35px;
+        color: #FA5F1A;
+    }
+    .footer{
+        position: relative;
+        min-height: 300px;
+        background-color: #171717;
+        padding-top: 5%;
+        display: flex;
+        justify-content: space-around;
+    }
+    .footer .footer-logo h6{
+        color: #FA5F1A;
+        font-family: 'Creepster', cursive;
+        font-size: 25px;
+    }
+    .footer ul li{
+        cursor: pointer;
+        font-size: 15px;
+        color: rgb(88, 82, 82);
+    }
+    .footer ul h3{
+        font-size: 17px;
+        color: white;
+    }
+    .footer div img{
+        width: 30%;
+        cursor: pointer;
+    }
+    .footer ul li:hover{
+        color: white;
+        text-decoration: underline;
+        text-decoration-color: rgb(240, 115, 33);
+    }
+    .footer .footer-logo img{
+        width: 50px;
+    }
+    .footer .newsletter{
+        width: 370px;
+        position: relative;
+    }
+    .footer .newsletter h3{
+        font-size: 17px; 
+        color: white;   
+    }
+    .footer .newsletter p{
+        font-size: 15px; 
+        color: rgb(88, 82, 82);   
+    }
+    .footer .newsletter input{
+        width: 350px;
+        height: 40px;   
+        background-color: black;
+        border: 1px solid white; 
+        color: white;
+        position: relative;
+    }
+    .footer .newsletter input:focus{
+        border: none;
+        outline: 2px solid #FA5F1A; 
+    }
+    .footer-line{
+        width: 100%;
+        height: 50px;
+        background-color: black;
+        text-align: center;
+        color: rgb(88, 82, 82);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .footer-line p{
+        cursor: pointer;
+        margin: 5px;
+    }
+    .footer-line p:hover{
+        color: #FA5F1A;
+    }
+    .footer .newsletter .subscribe{
+        position: relative;
+    }
+    .footer .newsletter h4{
+        position: absolute;
+        top: 20%;
+        left: 69%;
+        color: white;
+        font-size: 18px;
+        cursor: pointer;
+        color: #FA5F1A;
+    }
+    .heading h1{
+        color: white;
+        padding: 10px; 
+        border: 2px solid #FA5F1A;
+    }
