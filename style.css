@@ -1,8 +1,11 @@
 * {
-  padding: 0;
   margin: 0;
+  padding: 0;
   box-sizing: border-box;
+  font-family: "Sirin Stencil", cursive;
 }
+
+/*  gallery section starts here*/
 
 /* parallax scroll effect */
 
@@ -270,4 +273,99 @@ body {
 
 .card-text {
   color: #fff;
+}
+
+/* ft contact starts here */
+
+.box {
+  width: 100%;
+  height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box .cont {
+  height: 80vh;
+  width: 65%;
+}
+
+.cont img {
+  height: 70vh;
+  margin: 20px;
+  border-radius: 10px;
+}
+.cont input .textarea::placeholder {
+  color: black;
+  font-size: 20px;
+}
+
+.cont p {
+  font-size: 28px;
+}
+
+.name input {
+  width: 600px;
+
+  height: 60px;
+  margin-bottom: 1%;
+  color: black;
+  border: 1px solid #fa5f1a;
+}
+
+.email input::placeholder {
+  color: black;
+  font-size: 20px;
+}
+
+.name input::placeholder {
+  color: black;
+  font-size: 20px;
+}
+
+.email input :focus {
+  outline: 2px solid red;
+  border: none;
+}
+
+.email input {
+  width: 298px;
+
+  height: 60px;
+  margin-bottom: 1%;
+  color: black;
+  border: 1px solid #fa5f1a;
+}
+
+.textarea {
+  width: 600px;
+
+  height: 200px;
+  margin-bottom: 1%;
+  color: black;
+  border: 1px solid #fa5f1a;
+}
+
+.submit button {
+  height: 40px;
+  width: 180px;
+  border-radius: 5px;
+  margin-left: 36%;
+  background-color: black;
+  color: white;
+}
+
+.contact {
+  text-align: center;
+}
+
+.contact h1 {
+  margin-bottom: 20px;
+  color: #fa5f1a;
+}
+
+.contact p {
+  margin-bottom: 20px;
+  color: #fa5f1a;
 }
