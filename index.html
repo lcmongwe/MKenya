@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+     <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="box">
+      <div class="cont">
+        <table>
+          <tr>
+            <td><img src="img/art.jpg" /></td>
+            <td>
+              <div class="contact">
+                <h1>contact us</h1>
+                <p>we'd be glad to hear from you</p>
+              </div>
+              <div class="name">
+                <input type="text" id="name" required placeholder="Name" />
+              </div>
+              <div class="email">
+                <input type="email" required placeholder="Email" />
+                <input type="number" required placeholder="Phone Number" />
+              </div>
+              <input class="textarea" placeholder="type message"> </input>
+              <div class="submit"><button onclick="msg()">send message</button></div>
+              <p id="message"></p>
+            </td>
+          </tr>
+        </table>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
