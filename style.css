@@ -1,0 +1,273 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* parallax scroll effect */
+
+img {
+  vertical-align: middle;
+  max-width: 100%;
+}
+
+main {
+  padding: 1em 0;
+  position: relative;
+  background-color: transparent;
+  box-shadow: opx -10px 60px rgba(0, 0, 0, 0.25);
+  height: 200vh;
+}
+
+header {
+  overflow: hidden;
+  padding-bottom: 55%;
+  width: 100%;
+  height: 100vh;
+  /* position: relative; */
+}
+
+.heroimg {
+  width: 100%;
+  height: 100vh;
+  max-width: none;
+  position: fixed;
+  left: 50%;
+  transform: translateX(-50%);
+  background-image: url(./images/hero.jpg);
+  background-position: center;
+  background-size: contain;
+}
+
+.herotext {
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 8%;
+  font-size: 2em;
+  z-index: 1;
+}
+
+.herotext h1 {
+  font-size: 180px;
+  font-weight: bolder;
+  line-height: 100px;
+  margin-bottom: 30px;
+  color: transparent;
+  -webkit-text-stroke: 1px #fff;
+  background: url(./images/back.png);
+  -webkit-background-clip: text;
+  background-position: 0 0;
+  animation: gallery 20s linear infinite;
+}
+
+@keyframes gallery {
+  100% {
+    background-position: 2000px 0;
+  }
+}
+
+/* parallax scroll effect end */
+
+/* gallery section */
+
+.contained {
+  margin: 0 auto;
+  width: 100%;
+  border: 2px solid black;
+  border-radius: 8px;
+  height: 90vh;
+  background-color: transparent;
+}
+
+.art1 {
+  background-color: white;
+  z-index: 1;
+  position: absolute;
+}
+
+.artist1 {
+  width: 35%;
+  height: 100%;
+  background-color: transparent;
+  color: #fa5f1a;
+}
+
+.artist-self1 {
+  width: 65%;
+  height: 100%;
+  background-image: url(./images/artist1.jpg);
+  background-size: contain;
+  background-position: center center;
+}
+
+#hidecont {
+  display: none;
+}
+
+#hidecont1 {
+  display: none;
+}
+
+.artist-self2 {
+  width: 65%;
+  height: 100%;
+  background-image: url(./images/artist2.jpg);
+  background-size: contain;
+  background-position: center;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Sirin+Stencil&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Sirin Stencil", cursive;
+  box-sizing: border-box;
+}
+body {
+  background-color: black;
+  font-family: "Sirin Stencil", cursive;
+}
+/* .gallery {
+  margin: 16px; */
+
+.gallery-container {
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+  width: 100%;
+}
+.card-container {
+  width: 40%;
+  background-color: transparent;
+  border-radius: 10px 0px 0px 10px;
+  overflow: hidden;
+  position: relative;
+}
+#container2 {
+  margin-left: 1%;
+}
+.card-gallery {
+  width: 70%;
+  margin: 20px;
+  height: 100%;
+  display: flex;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  background-color: black;
+  position: relative;
+}
+.card-gallery i {
+  color: white;
+  position: absolute;
+  top: 90%;
+  font-size: 30px;
+  left: 5%;
+  cursor: pointer;
+  z-index: 20;
+}
+.card-image {
+  width: 100%;
+}
+.card-gallery img {
+  margin: 2%;
+  margin-left: 5%;
+  border-radius: 4px;
+  width: 200px;
+  height: 200px;
+}
+.card-caption {
+  padding: 20px;
+}
+.card-button {
+  border: 1px solid white;
+  outline: none;
+
+  width: 150px;
+  color: white;
+  border-radius: 30px;
+  margin: 40px;
+
+  cursor: pointer;
+  font-size: 18px;
+  height: 6%;
+  background-color: transparent;
+  font-weight: 600;
+}
+.card-mouseon {
+  border: 1px solid white;
+  outline: none;
+
+  width: 150px;
+  height: 6%;
+  color: white;
+  border-radius: 30px;
+  margin: 40px;
+  cursor: pointer;
+  font-size: 18px;
+  background-color: transparent;
+  font-weight: 600;
+}
+.card-mygallery {
+  width: 70%;
+  margin: 20px;
+  display: flex;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  background-color: black;
+  position: relative;
+}
+.card-mygallery i {
+  color: white;
+  position: absolute;
+  top: 90%;
+  font-size: 30px;
+  left: 5%;
+  cursor: pointer;
+}
+.card-mygallery img {
+  margin: 2%;
+  margin-left: 5%;
+  border-radius: 4px;
+  width: 200px;
+  height: 200px;
+}
+.card-images {
+  width: 100%;
+}
+.gallery-title {
+  text-align: center;
+  padding: 15px;
+  font-size: larger;
+  background-color: black;
+  color: white;
+}
+
+.gallery-container .card-test {
+  width: 60%;
+
+  background-image: url("./images/artist3.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.gallery-container .card-test2 {
+  width: 58%;
+
+  background-image: url("/images/artist4.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.card-title {
+  color: #fa5f1a;
+}
+
+.card-text {
+  color: #fff;
+}
